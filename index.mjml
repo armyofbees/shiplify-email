@@ -16,22 +16,25 @@
   <mj-body background-color="#f6f6f6">
     <mj-wrapper background-color="#f6f6f6" padding="0">
 
+      <!-- Logo -->
       <mj-section background-color="#f6f6f6" padding="20px 18px 22px">
         <mj-column>
           <mj-image padding="0" align="left" alt="Shiplify" width="120px" src="https://i.ibb.co/QF88d27/logo-email.png"></mj-image>
         </mj-column>
       </mj-section>
 
-      <mj-section border-radius="5px">
+      <!-- Flag Detail -->
+      <mj-section border-radius="5px 5px 0 0">
         <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
           <mj-text font-weight="700" font-size="18px" line-height="24px">
             Your flag has been resolved
           </mj-text>
         </mj-column>
-
+			</mj-section>
+      <mj-section border-radius="0 0 5px 5px">
         <mj-column width="50%" padding="20px 0 20px 20px">
           <mj-text font-weight="700">
-            <img width="10" src="https://armyofbees.github.io/shiplify-email/images/icon-flag.png" style="margin-right:5px" />
+            <img width="10" src="https://armyofbees.github.io/shiplify-email/images/icon-flag.png" />&nbsp;
             Flagged Location
           </mj-text>
           <mj-text padding-top="10px">
@@ -46,7 +49,7 @@
 
         <mj-column width="50%" padding="25px 20px">
           <mj-text font-weight="700">
-            <img width="10" src="https://armyofbees.github.io/shiplify-email/images/icon-chat.png" style="margin-right:5px;" />
+            <img width="10" src="https://armyofbees.github.io/shiplify-email/images/icon-chat.png" />&nbsp;
             You said:
           </mj-text>
           <mj-text padding-top="10px" color="#999999">
@@ -55,57 +58,68 @@
         </mj-column>
       </mj-section>
 
-      <mj-section background-color="#f9f9f9" padding="15px"></mj-section>
+      <mj-section background-color="#f6f6f6" padding="15px"></mj-section>
 
-      <mj-section border-radius="5px">
+      <!-- Flag Updates -->
+      <mj-section border-radius="5px 5px 0 0">
         <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
           <mj-text font-weight="700" font-size="18px" line-height="24px">
             3 updates were made
           </mj-text>
         </mj-column>
-
+      </mj-section>
+			<mj-section>
         <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
-          <mj-text font-weight="700">
-            <img width="15" src="https://armyofbees.github.io/shiplify-email/images/icon-check.png" style="margin-right:5px;vertical-align:middle"	 />
+          <mj-text font-weight="700" line-height="20px">
+            <img width="15" src="https://armyofbees.github.io/shiplify-email/images/icon-success.png" />&nbsp;
             Location is now exempt
           </mj-text>
-          <mj-text padding="10px 0 0 25px">
+          <mj-text padding="10px 0 0 22px">
             You will no longer recieve tariff items for this location.
           </mj-text>
         </mj-column>
-
+      </mj-section>
+			<mj-section>
         <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
-          <mj-text font-weight="700">
-            <img width="15" src="https://armyofbees.github.io/shiplify-email/images/icon-check.png" style="margin-right:5px;vertical-align:middle"	 />
+          <mj-text font-weight="700" line-height="20px">
+            <img width="15" src="https://armyofbees.github.io/shiplify-email/images/icon-success.png" />&nbsp;
             Location types were updated
           </mj-text>
-          <mj-text padding="10px 0 0 25px">
+          <mj-text padding="10px 0 0 22px">
             Restaurant &nbsp;<span style="text-transform:uppercase;font-size:11px;font-weight:700;color:#339D5C;">NEW</span><br />
             Commercial<br />
             <span style="text-decoration:line-through">Residential</span> &nbsp;<span style="text-transform:uppercase;font-size:11px;font-weight:700;color:#CF2A27;">REMOVED</span>
           </mj-text>
         </mj-column>
-
-        <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
+      </mj-section>
+			<mj-section>
+        <mj-column padding="20px 20px 0" vertical-align="middle">
           <mj-text font-weight="700">
-            <img width="15" src="https://armyofbees.github.io/shiplify-email/images/icon-check.png" style="margin-right:5px;vertical-align:middle"	 />
+            <img width="15" src="https://armyofbees.github.io/shiplify-email/images/icon-success.png" />&nbsp;
             Location pin was moved
           </mj-text>
-          <mj-table padding="10px 0 0 25px" width="100%">
-            <tr>
-              <td width="45%">
-                <img width="100%" src="https://armyofbees.github.io/shiplify-email/images/tmp-pin1.png" />
-              </td>
-              <td width="10%" alt="Old location" vertical-align="middle" style="text-align:center; padding: 0 12px;">
-                <img width="16" src="https://armyofbees.github.io/shiplify-email/images/icon-arrow.png" alt="to" />
-              </td>
-              <td width="45%">
-                <img width="100%" alt="New location" src="https://armyofbees.github.io/shiplify-email/images/tmp-pin2.png" />
-              </td>
-            </tr>
-          </mj-table>
         </mj-column>
-
+    </mj-section>
+    <mj-section>
+      <mj-column padding="15px 20px 20px 40px" border-bottom="1px solid #f6f6f6">
+          <mj-raw>
+            <table width="390" style="width:390px;max-width:100%;border-collapse:collapse;">
+              <tr>
+                <td width="45%">
+                  <img width="100%" src="https://armyofbees.github.io/shiplify-email/images/tmp-pin1.png" />
+                </td>
+                <td width="10%" alt="Old location" vertical-align="middle" style="text-align:center; padding: 0 12px;">
+                  <img width="16" src="https://armyofbees.github.io/shiplify-email/images/icon-arrow.png" alt="to" />
+                </td>
+                <td width="45%">
+                  <img width="100%" alt="New location" src="https://armyofbees.github.io/shiplify-email/images/tmp-pin2.png" />
+                </td>
+              </tr>
+            </table>
+          </mj-raw>
+        </mj-column>
+      </mj-section>
+			<mj-section border-radius="0 0 5px 5px">
         <mj-column padding="20px 20px">
           <mj-text align="right" color="#999999" font-size="12px" line-height="20px">
             Analyst: <a href="mailto:drews@shiplify.com" style="color:#999999;">drews@shiplify.com</a>
@@ -113,7 +127,7 @@
         </mj-column>
       </mj-section>
 
-      <mj-section background-color="#f9f9f9" padding="15px"></mj-section>
+      <mj-section background-color="#f6f6f6" padding="15px"></mj-section>
 
       <mj-section border-radius="5px">
         <mj-column padding="30px 20px">
@@ -122,10 +136,10 @@
         </mj-column>
       </mj-section>
 
-      <mj-section background-color="#f9f9f9" padding="15px"></mj-section>
+      <mj-section background-color="#f6f6f6" padding="15px"></mj-section>
 
       <mj-section background-color="#f6f6f6">
-        <mj-column padding="35px 20px">
+        <mj-column padding="20px">
           <mj-text align="center" color="#999999" font-size="12px" line-height="20px">
             <strong>Shiplify</strong><br />
             1425 Ellsworth Industrial Blvd Ste #24<br />
