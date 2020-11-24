@@ -1,108 +1,138 @@
 <mjml>
   <mj-head>
-    <mj-title>Shiplify - Pro #182839283 Update</mj-title>
+    <mj-title>Update to Pro #99180065494</mj-title>
+
     <mj-font name="Open Sans" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"></mj-font>
+
     <mj-attributes>
       <mj-all font-family="Open Sans, Helvetica, Arial, sans-serif"></mj-all>
-      <mj-text font-weight="400" font-size="14px" color="#3A3A3D" line-height="22px"></mj-text>
-      <mj-section padding="0"></mj-section>
+      <mj-section padding="0" background-color="#ffffff"></mj-section>
+      <mj-column width="100%" padding="0"></mj-column>
+      <mj-divider border-width="20px" border-color="#f6f6f6"></mj-divider>
+      <mj-text font-weight="400" font-size="14px" color="#3A3A3D" line-height="22px" padding="0px"></	mj-text>
     </mj-attributes>
-  </mj-head>
-  <mj-body background-color="#F6F6F6">
 
-    <mj-section>
-      <mj-column>
-        <mj-image align="left" alt="Shiplify" width="120px" src="images/shiplify-logo.png"></mj-image>
-      </mj-column>
+  </mj-head>
+  <mj-body background-color="#f6f6f6">
+
+    <mj-section background-color="#f6f6f6" padding="20px 18px 22px">
+      <mj-raw>
+      	<img align="left" alt="Shiplify" width="120px" src="https://i.ibb.co/QF88d27/logo-email.png" style="font-weight:700;color:#339D5C" />
+      </mj-raw>
     </mj-section>
 
-    <mj-section>
-      <mj-column>
-        <mj-text>
+    <mj-section border-radius="5px">
+      <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
+        <mj-text font-weight="700" font-size="18px" line-height="24px">
           Your flag has been resolved
         </mj-text>
       </mj-column>
 
-      <mj-column width="50%">
-        <mj-text>
-          <img width="10px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACJSURBVHgB7ZTBDYAgEAT3LhRiCT4oQCvRzrQES/ANIcaKEI1f4TA8eDAvkl02R7IHIYG1dkAGFBONMT0zH8iAoyJzh0yUc275Er33PXIDw6UZBWEUpgW2wBoCldC3a63HLzF8ImvY++k+Syc8hb5nwj1lCvu+QYiKPeUPrYcVBkqLHYWIVrz1uwA0uRxzYZiU1gAAAABJRU5ErkJggg==" />
+      <mj-column width="50%" padding="20px 0 20px 20px">
+        <mj-text font-weight="700">
+          <img width="10px" src="https://armyofbees.github.io/shiplify-email/images/icon-flag.png" style="margin-right:5px" />
           Flagged Location
         </mj-text>
-        <mj-text>
-          <a href="#">PAN PACIFIC PLASTICS MFG INC</a><br />
+        <mj-text padding-top="10px">
+          <a href="#" style="font-weight:700;color:#339D5C">PAN PACIFIC PLASTICS MFG INC</a><br />
           26551 DANTI CT<br />
           HAYWARD CA 94545
         </mj-text>
+        <mj-text padding-top="10px" color="#999999" font-size="12px" line-height="20px">
+        	Pro #99180065494
+        </mj-text>
       </mj-column>
 
-      <mj-column width="50%">
-        <mj-text>
-          <img width="10px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABoSURBVHgB7dQxEcAgDIXhFxQgoZJqBQWtkwoCNBQJKCANK1PveGP+uwxZvssUKaWcAB6biI1UtYlIklrra8sBTj0QsVkMIOeggw7+BTuIhTFGsrfTQEqwWc75toMuGriiFHBFaU0U7D6TIySeOKZLpwAAAABJRU5ErkJggg==" />
+      <mj-column width="50%" padding="25px 20px">
+        <mj-text font-weight="700">
+          <img width="10px" src="https://armyofbees.github.io/shiplify-email/images/icon-chat.png" style="margin-right:5px;" />
           You said:
         </mj-text>
-        <mj-text>
+        <mj-text padding-top="10px" color="#999999">
           “Lorem ipsum dolor sit amet conspecateur something something something.”
         </mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section>
-      <mj-column>
-        <mj-text>
+    <mj-divider></mj-divider>
+
+    <mj-section border-radius="5px">
+      <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
+        <mj-text font-weight="700" font-size="18px" line-height="24px">
           3 updates were made
         </mj-text>
       </mj-column>
 
-      <mj-group>
-        <mj-column width="26px">
-          <img width="15px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAApCAYAAAAiT5m3AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMLSURBVHgB7Zc9bNNAFMffu6SoEks6lslFAhZoQmFga5OJBVKYECrCbSkjdGVquzI1GxIUt6KBkRQmlrbZGAgxZWKKmcpGJKgExL7j3TXNh+2mduIuVf5W7Pj5+X738e7uGaCvvk6aMKjj1edTEwL5JDCWFAI1BKFJuwC0EIUFnH9BwQqf5ta3g5TXEZwy9AQD+zFymKfbBAQSVQJx2cH4mjm9Wg0NVi1kwiAXDbqSqFDpS6WZ/Jrf05ifccyYWqDLKkEDttJPOES/7PCtUdjd2Cl6nnqgK/cMGj8dIhUapdlXM62WthbLlqJQ4xm1Uu6WN1o8tnJXR2AGHJ8EHbdLD9YL8oap6hg6TQ9cgCiFoswcPiZklNctdLyUM6UBpilzv/vo9Yc6uJc5fe58mTMn0wIfYrY93wAjjzCY6lBzulCfw4NtEYwMHqnrlRdTk/TkLUShFujE1iJULWskxmubrt6kBRAyTABMQBQKBlWeHCHLqOlJ6FXBoftiMM4oxFNuuwwGx+GXBYIJUUPVK6DJ4Eq4ofyfkzYfvjY5xtOd4AKFGRZaV4J5aqPOg+osd5fD4BLKcS+toIYeBqokwa6tC7XYqdpW6pk+IltxAKcalZsuotwGBREKKpmMCrS8doIP1Dar36wGnPbXjIK7x1RB7TBQOZ4mExyK/k/94d4xDQlVRQsL9zd82DrciyK8NpBJXNAq2+lFZQkZSJ4CEdkkykWbal2BjqlNEy7veoDKWVP5PJs/y2QXUnfnOrs3u70XqOQyjioVUtOJx+PLdPkJAeA9QNUaYTu2AqsM5MeG+Wf4xqW/iHi986syB+s6D6Oxhfny3JtiAyy1+/7rxzM3RxM0Za5B9JLZR640m396YPAke7RNGmTVIVroGqU8061Gz5KpHAQsqxeigebcUCnfvHr33c6H4ezF7/Q3iSo/Dg8Uclnk4klpLr/k53DEJ8wdLebEFmiTGKcKaEf5N4GQswd+50y9EP4Txi2VIoHI0kdakqKzsYcLtclgFYFvC2BFHvu10QnYV1/Hrv/+ub7JNFRPngAAAABJRU5ErkJggg==" />
-        </mj-column>
-        <mj-column>
-          <mj-text>Location is now exempt</mj-text>
-          <mj-text>You will no longer recieve tariff items for this location.</mj-text>
-        </mj-column>
-      </mj-group>
+      <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
+        <mj-text font-weight="700">
+          <img width="15px" src="https://armyofbees.github.io/shiplify-email/images/icon-check.png" style="margin-right:5px;margin-bottom:-5px"	 />
+          Location is now exempt
+        </mj-text>
+        <mj-text padding="10px 0 0 25px">
+          You will no longer recieve tariff items for this location.
+        </mj-text>
+      </mj-column>
 
-      <mj-group>
-        <mj-column width="26px">
-          <img width="15px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAApCAYAAAAiT5m3AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMLSURBVHgB7Zc9bNNAFMffu6SoEks6lslFAhZoQmFga5OJBVKYECrCbSkjdGVquzI1GxIUt6KBkRQmlrbZGAgxZWKKmcpGJKgExL7j3TXNh+2mduIuVf5W7Pj5+X738e7uGaCvvk6aMKjj1edTEwL5JDCWFAI1BKFJuwC0EIUFnH9BwQqf5ta3g5TXEZwy9AQD+zFymKfbBAQSVQJx2cH4mjm9Wg0NVi1kwiAXDbqSqFDpS6WZ/Jrf05ifccyYWqDLKkEDttJPOES/7PCtUdjd2Cl6nnqgK/cMGj8dIhUapdlXM62WthbLlqJQ4xm1Uu6WN1o8tnJXR2AGHJ8EHbdLD9YL8oap6hg6TQ9cgCiFoswcPiZklNctdLyUM6UBpilzv/vo9Yc6uJc5fe58mTMn0wIfYrY93wAjjzCY6lBzulCfw4NtEYwMHqnrlRdTk/TkLUShFujE1iJULWskxmubrt6kBRAyTABMQBQKBlWeHCHLqOlJ6FXBoftiMM4oxFNuuwwGx+GXBYIJUUPVK6DJ4Eq4ofyfkzYfvjY5xtOd4AKFGRZaV4J5aqPOg+osd5fD4BLKcS+toIYeBqokwa6tC7XYqdpW6pk+IltxAKcalZsuotwGBREKKpmMCrS8doIP1Dar36wGnPbXjIK7x1RB7TBQOZ4mExyK/k/94d4xDQlVRQsL9zd82DrciyK8NpBJXNAq2+lFZQkZSJ4CEdkkykWbal2BjqlNEy7veoDKWVP5PJs/y2QXUnfnOrs3u70XqOQyjioVUtOJx+PLdPkJAeA9QNUaYTu2AqsM5MeG+Wf4xqW/iHi986syB+s6D6Oxhfny3JtiAyy1+/7rxzM3RxM0Za5B9JLZR640m396YPAke7RNGmTVIVroGqU8061Gz5KpHAQsqxeigebcUCnfvHr33c6H4ezF7/Q3iSo/Dg8Uclnk4klpLr/k53DEJ8wdLebEFmiTGKcKaEf5N4GQswd+50y9EP4Txi2VIoHI0kdakqKzsYcLtclgFYFvC2BFHvu10QnYV1/Hrv/+ub7JNFRPngAAAABJRU5ErkJggg==" />
-        </mj-column>
-        <mj-column>
-          <mj-table>
-            <tr>
-              <td>
-                <mj-image src="images/tmp-pin1.png">
-              </td>
-              <td>
-                <img width="16px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADgSURBVHgBxdexEcIwFAPQb0/AKFTpmYgRkhHYiD6J7xiFCWzsJkCOwpZkoiYXN3r3UzjfjMi6rtd5ns9GxBuYEMKYHzfv/Z1BOANSylNK08fRM8Z4GYbhYY2BJpDL9vATOgloAiXLskzOuXF33DwJGKBCUAAFggawCAmAQcgAKEIKQBByQCuiC6AF0Q1Qi3D5Rkv2/2yIowAbAr6OVTkK8P4E1jE//hu+ystLN0BNeTdAbXkXQEu5HNBaLgUg5TIAWi4BMOU0gC2nAIpyGKAqL1FtRvBqptiM4HI6BcGu5y9g6intzYomSAAAAABJRU5ErkJggg==" />
-              </td>
-              <td>
-                <mj-image src="images/tmp-pin2.png">
-              </td>
-            </tr>
-          </mj-table>
-        </mj-column>
-      </mj-group>
+      <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
+        <mj-text font-weight="700">
+          <img width="15px" src="https://armyofbees.github.io/shiplify-email/images/icon-check.png" style="margin-right:5px;margin-bottom:-5px"	 />
+          Location types were updated
+        </mj-text>
+        <mj-text padding="10px 0 0 25px">
+          Restaurant &nbsp;<span style="text-transform:uppercase;font-size:11px;font-weight:700;color:#339D5C;">NEW</span><br />
+          Commercial<br />
+          <span style="text-decoration:line-through">Residential</span> &nbsp;<span style="text-transform:uppercase;font-size:11px;font-weight:700;color:#CF2A27;">REMOVED</span>
+        </mj-text>
+      </mj-column>
 
-      <mj-column>
-        <mj-text align="right">
-          Analyst: <a href="mailto:drews@shiplify.com">drews@shiplify.com</a>
+      <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
+        <mj-text font-weight="700">
+          <img width="15px" src="https://armyofbees.github.io/shiplify-email/images/icon-check.png" style="margin-right:5px;margin-bottom:-5px"	 />
+          Location pin was moved
+        </mj-text>
+        <mj-table padding="10px 0 0 25px" width="100%">
+          <tr>
+            <td width="45%">
+              <img width="100%" src="https://armyofbees.github.io/shiplify-email/images/tmp-pin1.png" />
+            </td>
+            <td width="10%" alt="Old location" vertical-align="middle" style="text-align:center; padding: 0 12px;">
+              <img width="16px" src="https://armyofbees.github.io/shiplify-email/images/icon-arrow.png" alt="to" />
+            </td>
+            <td width="45%">
+              <img width="100%" alt="New location" src="https://armyofbees.github.io/shiplify-email/images/tmp-pin2.png" />
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+
+      <mj-column padding="20px 20px">
+        <mj-text align="right" color="#999999" font-size="12px" line-height="20px">
+          Analyst: <a href="mailto:drews@shiplify.com" style="color:#999999;">drews@shiplify.com</a>
         </mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section>
-      <mj-column>
-        <mj-text align="center">Have a question?</mj-text>
-        <mj-text align="center">Just reply to this email.</mj-text>
+    <mj-divider></mj-divider>
+
+    <mj-section border-radius="5px">
+      <mj-column padding="30px 20px">
+        <mj-text align="center" padding="0 0 15px" font-weight="700" font-size="20px" line-height="28px">Have a question?</mj-text>
+        <mj-text align="center" font-size="16px" line-height="22px">Just reply to this email.</mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section>
-      <mj-column>
-        <mj-text align="center">Shiplify</mj-text>
-        <mj-text align="center">1425 Ellsworth Industrial Blvd Ste #24, Atlanta, GA 30318</mj-text>
-        <mj-text align="center">Don’t like these emails? <a href="#">Opt out</a>.</mj-text>
+    <mj-divider></mj-divider>
+
+    <mj-section background-color="#f6f6f6">
+      <mj-column padding="35px 20px">
+        <mj-text align="center" color="#999999" font-size="12px" line-height="20px">
+          <strong>Shiplify</strong><br />
+          1425 Ellsworth Industrial Blvd Ste #24<br />
+          Atlanta, GA 30318
+        </mj-text>
+        <mj-text align="center" padding="20px 0 0" color="#999999" font-size="12px" line-height="20px">
+          Don’t like these emails? <a href="#" style="color:#999999;">Opt out</a>
+        </mj-text>
       </mj-column>
     </mj-section>
 
