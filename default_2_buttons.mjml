@@ -1,0 +1,90 @@
+<mjml>
+  <mj-head>
+    <mj-title>Standard Transactional Email</mj-title>
+
+    <mj-font name="Open Sans" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"></mj-font>
+
+    <mj-attributes>
+      <mj-all font-family="Open Sans, Helvetica, Arial, sans-serif"></mj-all>
+      <mj-section padding="0" background-color="#ffffff"></mj-section>
+      <mj-column width="100%" padding="0"></mj-column>
+      <mj-divider border-width="20px" border-color="#f6f6f6"></mj-divider>
+      <mj-text font-weight="400" font-size="16px" color="#3A3A3D" line-height="24px" padding="0px"></mj-text>
+      <mj-button align="left" font-size="16px" line-height="22px" padding="0" inner-padding="14px 22px" font-weight="700"></mj-button>
+    </mj-attributes>
+
+  </mj-head>
+  <mj-body background-color="#f6f6f6">
+    <mj-wrapper background-color="#f6f6f6" padding="0">
+
+      <!-- Header -->
+      <mj-section background-color="#f6f6f6" padding="20px 18px 22px">
+        <mj-column>
+          <mj-image padding="0" align="left" alt="Shiplify" width="120px" src="https://i.ibb.co/QF88d27/logo-email.png"></mj-image>
+        </mj-column>
+      </mj-section>
+
+      <!-- Message Title -->
+      <mj-section border-radius="5px 5px 0 0">
+        <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
+          <mj-text font-weight="700" font-size="18px" line-height="24px">
+            Standard transactional email
+          </mj-text>
+        </mj-column>
+			</mj-section>
+
+      <!-- Message Body -->
+      <mj-section border-radius="0">
+        <mj-column padding="20px 20px 20px" border-bottom="1px solid #f6f6f6">
+          <mj-text>
+            Hi Username,<br /><br />
+            This is some standard transactional email maximus a metus id consequat. Donec efficitur lacinia mauris, vitae venenatis est finibus ut. Suspendisse semper faucibus fringilla. Sed risus quam, molestie aliquet tempor eu, dignissim sed nulla. Donec dapibus id odio vitae facilisis. Curabitur posuere ultricies faucibus. Praesent nec massa ante.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Message Buttons -->
+      <mj-section border-radius="0 0 5px 5px" padding="20px 20px 10px">
+        <mj-column width="50%" padding="0 20px 10px 0">
+      		<mj-button href="https://www.shiplify.com" background-color="#339D5C" color="#ffffff">
+            Primary Button
+          </mj-button>
+        </mj-column>
+        <mj-column width="50%" padding="0 0 10px 0">
+      		<mj-button href="https://www.shiplify.com" background-color="#eeeeee" color="#3A3A3D">
+            Secondary Button
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Spacer -->
+      <mj-section background-color="#f6f6f6" padding="15px"></mj-section>
+
+      <!-- Questions -->
+      <mj-section border-radius="5px">
+        <mj-column padding="30px 20px">
+          <mj-text align="center" padding="0 0 15px" font-weight="700" font-size="20px" line-height="28px">Have a question?</mj-text>
+          <mj-text align="center" font-size="16px" line-height="22px">Just reply to this email.</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Spacer -->
+      <mj-section background-color="#f6f6f6" padding="15px"></mj-section>
+
+      <!-- Footer -->
+      <mj-section background-color="#f6f6f6">
+        <mj-column padding="20px">
+          <mj-text align="center" color="#999999" font-size="12px" line-height="20px">
+            <strong>Shiplify</strong><br />
+            1425 Ellsworth Industrial Blvd Ste #24<br />
+            Atlanta, GA 30318
+          </mj-text>
+          <mj-text align="center" padding="20px 0 0" color="#999999" font-size="12px" line-height="20px">
+            Don’t like these emails? <a href="#" style="color:#999999;">Opt out</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+  </mj-body>
+</mjml>
