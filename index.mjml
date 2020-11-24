@@ -14,127 +14,129 @@
 
   </mj-head>
   <mj-body background-color="#f6f6f6">
+    <mj-wrapper background-color="#f6f6f6" padding="0">
 
-    <mj-section background-color="#f6f6f6" padding="20px 18px 22px">
-      <mj-raw>
-      	<img align="left" alt="Shiplify" width="120px" src="https://i.ibb.co/QF88d27/logo-email.png" style="font-weight:700;color:#339D5C" />
-      </mj-raw>
-    </mj-section>
+      <mj-section background-color="#f6f6f6" padding="20px 18px 22px">
+        <mj-column>
+          <mj-image padding="0" align="left" alt="Shiplify" width="120px" src="https://i.ibb.co/QF88d27/logo-email.png"></mj-image>
+        </mj-column>
+      </mj-section>
 
-    <mj-section border-radius="5px">
-      <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
-        <mj-text font-weight="700" font-size="18px" line-height="24px">
-          Your flag has been resolved
-        </mj-text>
-      </mj-column>
+      <mj-section border-radius="5px">
+        <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
+          <mj-text font-weight="700" font-size="18px" line-height="24px">
+            Your flag has been resolved
+          </mj-text>
+        </mj-column>
 
-      <mj-column width="50%" padding="20px 0 20px 20px">
-        <mj-text font-weight="700">
-          <img width="10px" src="https://armyofbees.github.io/shiplify-email/images/icon-flag.png" style="margin-right:5px" />
-          Flagged Location
-        </mj-text>
-        <mj-text padding-top="10px">
-          <a href="#" style="font-weight:700;color:#339D5C">PAN PACIFIC PLASTICS MFG INC</a><br />
-          26551 DANTI CT<br />
-          HAYWARD CA 94545
-        </mj-text>
-        <mj-text padding-top="10px" color="#999999" font-size="12px" line-height="20px">
-        	Pro #99180065494
-        </mj-text>
-      </mj-column>
+        <mj-column width="50%" padding="20px 0 20px 20px">
+          <mj-text font-weight="700">
+            <img width="10" src="https://armyofbees.github.io/shiplify-email/images/icon-flag.png" style="margin-right:5px" />
+            Flagged Location
+          </mj-text>
+          <mj-text padding-top="10px">
+            <a href="#" style="font-weight:700;color:#339D5C">PAN PACIFIC PLASTICS MFG INC</a><br />
+            26551 DANTI CT<br />
+            HAYWARD CA 94545
+          </mj-text>
+          <mj-text padding-top="10px" color="#999999" font-size="12px" line-height="20px">
+            Pro #99180065494
+          </mj-text>
+        </mj-column>
 
-      <mj-column width="50%" padding="25px 20px">
-        <mj-text font-weight="700">
-          <img width="10px" src="https://armyofbees.github.io/shiplify-email/images/icon-chat.png" style="margin-right:5px;" />
-          You said:
-        </mj-text>
-        <mj-text padding-top="10px" color="#999999">
-          “Lorem ipsum dolor sit amet conspecateur something something something.”
-        </mj-text>
-      </mj-column>
-    </mj-section>
+        <mj-column width="50%" padding="25px 20px">
+          <mj-text font-weight="700">
+            <img width="10" src="https://armyofbees.github.io/shiplify-email/images/icon-chat.png" style="margin-right:5px;" />
+            You said:
+          </mj-text>
+          <mj-text padding-top="10px" color="#999999">
+            “Lorem ipsum dolor sit amet conspecateur something something something.”
+          </mj-text>
+        </mj-column>
+      </mj-section>
 
-    <mj-divider></mj-divider>
+      <mj-section background-color="#f9f9f9" padding="15px"></mj-section>
 
-    <mj-section border-radius="5px">
-      <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
-        <mj-text font-weight="700" font-size="18px" line-height="24px">
-          3 updates were made
-        </mj-text>
-      </mj-column>
+      <mj-section border-radius="5px">
+        <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
+          <mj-text font-weight="700" font-size="18px" line-height="24px">
+            3 updates were made
+          </mj-text>
+        </mj-column>
 
-      <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
-        <mj-text font-weight="700">
-          <img width="15px" src="https://armyofbees.github.io/shiplify-email/images/icon-check.png" style="margin-right:5px;margin-bottom:-5px"	 />
-          Location is now exempt
-        </mj-text>
-        <mj-text padding="10px 0 0 25px">
-          You will no longer recieve tariff items for this location.
-        </mj-text>
-      </mj-column>
+        <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
+          <mj-text font-weight="700">
+            <img width="15" src="https://armyofbees.github.io/shiplify-email/images/icon-check.png" style="margin-right:5px;vertical-align:middle"	 />
+            Location is now exempt
+          </mj-text>
+          <mj-text padding="10px 0 0 25px">
+            You will no longer recieve tariff items for this location.
+          </mj-text>
+        </mj-column>
 
-      <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
-        <mj-text font-weight="700">
-          <img width="15px" src="https://armyofbees.github.io/shiplify-email/images/icon-check.png" style="margin-right:5px;margin-bottom:-5px"	 />
-          Location types were updated
-        </mj-text>
-        <mj-text padding="10px 0 0 25px">
-          Restaurant &nbsp;<span style="text-transform:uppercase;font-size:11px;font-weight:700;color:#339D5C;">NEW</span><br />
-          Commercial<br />
-          <span style="text-decoration:line-through">Residential</span> &nbsp;<span style="text-transform:uppercase;font-size:11px;font-weight:700;color:#CF2A27;">REMOVED</span>
-        </mj-text>
-      </mj-column>
+        <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
+          <mj-text font-weight="700">
+            <img width="15" src="https://armyofbees.github.io/shiplify-email/images/icon-check.png" style="margin-right:5px;vertical-align:middle"	 />
+            Location types were updated
+          </mj-text>
+          <mj-text padding="10px 0 0 25px">
+            Restaurant &nbsp;<span style="text-transform:uppercase;font-size:11px;font-weight:700;color:#339D5C;">NEW</span><br />
+            Commercial<br />
+            <span style="text-decoration:line-through">Residential</span> &nbsp;<span style="text-transform:uppercase;font-size:11px;font-weight:700;color:#CF2A27;">REMOVED</span>
+          </mj-text>
+        </mj-column>
 
-      <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
-        <mj-text font-weight="700">
-          <img width="15px" src="https://armyofbees.github.io/shiplify-email/images/icon-check.png" style="margin-right:5px;margin-bottom:-5px"	 />
-          Location pin was moved
-        </mj-text>
-        <mj-table padding="10px 0 0 25px" width="100%">
-          <tr>
-            <td width="45%">
-              <img width="100%" src="https://armyofbees.github.io/shiplify-email/images/tmp-pin1.png" />
-            </td>
-            <td width="10%" alt="Old location" vertical-align="middle" style="text-align:center; padding: 0 12px;">
-              <img width="16px" src="https://armyofbees.github.io/shiplify-email/images/icon-arrow.png" alt="to" />
-            </td>
-            <td width="45%">
-              <img width="100%" alt="New location" src="https://armyofbees.github.io/shiplify-email/images/tmp-pin2.png" />
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
+        <mj-column padding="20px" border-bottom="1px solid #f6f6f6">
+          <mj-text font-weight="700">
+            <img width="15" src="https://armyofbees.github.io/shiplify-email/images/icon-check.png" style="margin-right:5px;vertical-align:middle"	 />
+            Location pin was moved
+          </mj-text>
+          <mj-table padding="10px 0 0 25px" width="100%">
+            <tr>
+              <td width="45%">
+                <img width="100%" src="https://armyofbees.github.io/shiplify-email/images/tmp-pin1.png" />
+              </td>
+              <td width="10%" alt="Old location" vertical-align="middle" style="text-align:center; padding: 0 12px;">
+                <img width="16" src="https://armyofbees.github.io/shiplify-email/images/icon-arrow.png" alt="to" />
+              </td>
+              <td width="45%">
+                <img width="100%" alt="New location" src="https://armyofbees.github.io/shiplify-email/images/tmp-pin2.png" />
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
 
-      <mj-column padding="20px 20px">
-        <mj-text align="right" color="#999999" font-size="12px" line-height="20px">
-          Analyst: <a href="mailto:drews@shiplify.com" style="color:#999999;">drews@shiplify.com</a>
-        </mj-text>
-      </mj-column>
-    </mj-section>
+        <mj-column padding="20px 20px">
+          <mj-text align="right" color="#999999" font-size="12px" line-height="20px">
+            Analyst: <a href="mailto:drews@shiplify.com" style="color:#999999;">drews@shiplify.com</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
 
-    <mj-divider></mj-divider>
+      <mj-section background-color="#f9f9f9" padding="15px"></mj-section>
 
-    <mj-section border-radius="5px">
-      <mj-column padding="30px 20px">
-        <mj-text align="center" padding="0 0 15px" font-weight="700" font-size="20px" line-height="28px">Have a question?</mj-text>
-        <mj-text align="center" font-size="16px" line-height="22px">Just reply to this email.</mj-text>
-      </mj-column>
-    </mj-section>
+      <mj-section border-radius="5px">
+        <mj-column padding="30px 20px">
+          <mj-text align="center" padding="0 0 15px" font-weight="700" font-size="20px" line-height="28px">Have a question?</mj-text>
+          <mj-text align="center" font-size="16px" line-height="22px">Just reply to this email.</mj-text>
+        </mj-column>
+      </mj-section>
 
-    <mj-divider></mj-divider>
+      <mj-section background-color="#f9f9f9" padding="15px"></mj-section>
 
-    <mj-section background-color="#f6f6f6">
-      <mj-column padding="35px 20px">
-        <mj-text align="center" color="#999999" font-size="12px" line-height="20px">
-          <strong>Shiplify</strong><br />
-          1425 Ellsworth Industrial Blvd Ste #24<br />
-          Atlanta, GA 30318
-        </mj-text>
-        <mj-text align="center" padding="20px 0 0" color="#999999" font-size="12px" line-height="20px">
-          Don’t like these emails? <a href="#" style="color:#999999;">Opt out</a>
-        </mj-text>
-      </mj-column>
-    </mj-section>
+      <mj-section background-color="#f6f6f6">
+        <mj-column padding="35px 20px">
+          <mj-text align="center" color="#999999" font-size="12px" line-height="20px">
+            <strong>Shiplify</strong><br />
+            1425 Ellsworth Industrial Blvd Ste #24<br />
+            Atlanta, GA 30318
+          </mj-text>
+          <mj-text align="center" padding="20px 0 0" color="#999999" font-size="12px" line-height="20px">
+            Don’t like these emails? <a href="#" style="color:#999999;">Opt out</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
 
+    </mj-wrapper>
   </mj-body>
 </mjml>
