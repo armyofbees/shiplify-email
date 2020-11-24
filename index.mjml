@@ -1,0 +1,110 @@
+<mjml>
+  <mj-head>
+    <mj-title>Shiplify - Pro #182839283 Update</mj-title>
+    <mj-font name="Open Sans" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Open Sans, Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="14px" color="#3A3A3D" line-height="22px"></mj-text>
+      <mj-section padding="0"></mj-section>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#F6F6F6">
+
+    <mj-section>
+      <mj-column>
+        <mj-image align="left" alt="Shiplify" width="120px" src="images/shiplify-logo.png"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          Your flag has been resolved
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%">
+        <mj-text>
+          <img width="10px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACJSURBVHgB7ZTBDYAgEAT3LhRiCT4oQCvRzrQES/ANIcaKEI1f4TA8eDAvkl02R7IHIYG1dkAGFBONMT0zH8iAoyJzh0yUc275Er33PXIDw6UZBWEUpgW2wBoCldC3a63HLzF8ImvY++k+Syc8hb5nwj1lCvu+QYiKPeUPrYcVBkqLHYWIVrz1uwA0uRxzYZiU1gAAAABJRU5ErkJggg==" />
+          Flagged Location
+        </mj-text>
+        <mj-text>
+          <a href="#">PAN PACIFIC PLASTICS MFG INC</a><br />
+          26551 DANTI CT<br />
+          HAYWARD CA 94545
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%">
+        <mj-text>
+          <img width="10px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABoSURBVHgB7dQxEcAgDIXhFxQgoZJqBQWtkwoCNBQJKCANK1PveGP+uwxZvssUKaWcAB6biI1UtYlIklrra8sBTj0QsVkMIOeggw7+BTuIhTFGsrfTQEqwWc75toMuGriiFHBFaU0U7D6TIySeOKZLpwAAAABJRU5ErkJggg==" />
+          You said:
+        </mj-text>
+        <mj-text>
+          “Lorem ipsum dolor sit amet conspecateur something something something.”
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          3 updates were made
+        </mj-text>
+      </mj-column>
+
+      <mj-group>
+        <mj-column width="26px">
+          <img width="15px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAApCAYAAAAiT5m3AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMLSURBVHgB7Zc9bNNAFMffu6SoEks6lslFAhZoQmFga5OJBVKYECrCbSkjdGVquzI1GxIUt6KBkRQmlrbZGAgxZWKKmcpGJKgExL7j3TXNh+2mduIuVf5W7Pj5+X738e7uGaCvvk6aMKjj1edTEwL5JDCWFAI1BKFJuwC0EIUFnH9BwQqf5ta3g5TXEZwy9AQD+zFymKfbBAQSVQJx2cH4mjm9Wg0NVi1kwiAXDbqSqFDpS6WZ/Jrf05ifccyYWqDLKkEDttJPOES/7PCtUdjd2Cl6nnqgK/cMGj8dIhUapdlXM62WthbLlqJQ4xm1Uu6WN1o8tnJXR2AGHJ8EHbdLD9YL8oap6hg6TQ9cgCiFoswcPiZklNctdLyUM6UBpilzv/vo9Yc6uJc5fe58mTMn0wIfYrY93wAjjzCY6lBzulCfw4NtEYwMHqnrlRdTk/TkLUShFujE1iJULWskxmubrt6kBRAyTABMQBQKBlWeHCHLqOlJ6FXBoftiMM4oxFNuuwwGx+GXBYIJUUPVK6DJ4Eq4ofyfkzYfvjY5xtOd4AKFGRZaV4J5aqPOg+osd5fD4BLKcS+toIYeBqokwa6tC7XYqdpW6pk+IltxAKcalZsuotwGBREKKpmMCrS8doIP1Dar36wGnPbXjIK7x1RB7TBQOZ4mExyK/k/94d4xDQlVRQsL9zd82DrciyK8NpBJXNAq2+lFZQkZSJ4CEdkkykWbal2BjqlNEy7veoDKWVP5PJs/y2QXUnfnOrs3u70XqOQyjioVUtOJx+PLdPkJAeA9QNUaYTu2AqsM5MeG+Wf4xqW/iHi986syB+s6D6Oxhfny3JtiAyy1+/7rxzM3RxM0Za5B9JLZR640m396YPAke7RNGmTVIVroGqU8061Gz5KpHAQsqxeigebcUCnfvHr33c6H4ezF7/Q3iSo/Dg8Uclnk4klpLr/k53DEJ8wdLebEFmiTGKcKaEf5N4GQswd+50y9EP4Txi2VIoHI0kdakqKzsYcLtclgFYFvC2BFHvu10QnYV1/Hrv/+ub7JNFRPngAAAABJRU5ErkJggg==" />
+        </mj-column>
+        <mj-column>
+          <mj-text>Location is now exempt</mj-text>
+          <mj-text>You will no longer recieve tariff items for this location.</mj-text>
+        </mj-column>
+      </mj-group>
+
+      <mj-group>
+        <mj-column width="26px">
+          <img width="15px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAApCAYAAAAiT5m3AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMLSURBVHgB7Zc9bNNAFMffu6SoEks6lslFAhZoQmFga5OJBVKYECrCbSkjdGVquzI1GxIUt6KBkRQmlrbZGAgxZWKKmcpGJKgExL7j3TXNh+2mduIuVf5W7Pj5+X738e7uGaCvvk6aMKjj1edTEwL5JDCWFAI1BKFJuwC0EIUFnH9BwQqf5ta3g5TXEZwy9AQD+zFymKfbBAQSVQJx2cH4mjm9Wg0NVi1kwiAXDbqSqFDpS6WZ/Jrf05ifccyYWqDLKkEDttJPOES/7PCtUdjd2Cl6nnqgK/cMGj8dIhUapdlXM62WthbLlqJQ4xm1Uu6WN1o8tnJXR2AGHJ8EHbdLD9YL8oap6hg6TQ9cgCiFoswcPiZklNctdLyUM6UBpilzv/vo9Yc6uJc5fe58mTMn0wIfYrY93wAjjzCY6lBzulCfw4NtEYwMHqnrlRdTk/TkLUShFujE1iJULWskxmubrt6kBRAyTABMQBQKBlWeHCHLqOlJ6FXBoftiMM4oxFNuuwwGx+GXBYIJUUPVK6DJ4Eq4ofyfkzYfvjY5xtOd4AKFGRZaV4J5aqPOg+osd5fD4BLKcS+toIYeBqokwa6tC7XYqdpW6pk+IltxAKcalZsuotwGBREKKpmMCrS8doIP1Dar36wGnPbXjIK7x1RB7TBQOZ4mExyK/k/94d4xDQlVRQsL9zd82DrciyK8NpBJXNAq2+lFZQkZSJ4CEdkkykWbal2BjqlNEy7veoDKWVP5PJs/y2QXUnfnOrs3u70XqOQyjioVUtOJx+PLdPkJAeA9QNUaYTu2AqsM5MeG+Wf4xqW/iHi986syB+s6D6Oxhfny3JtiAyy1+/7rxzM3RxM0Za5B9JLZR640m396YPAke7RNGmTVIVroGqU8061Gz5KpHAQsqxeigebcUCnfvHr33c6H4ezF7/Q3iSo/Dg8Uclnk4klpLr/k53DEJ8wdLebEFmiTGKcKaEf5N4GQswd+50y9EP4Txi2VIoHI0kdakqKzsYcLtclgFYFvC2BFHvu10QnYV1/Hrv/+ub7JNFRPngAAAABJRU5ErkJggg==" />
+        </mj-column>
+        <mj-column>
+          <mj-table>
+            <tr>
+              <td>
+                <mj-image src="images/tmp-pin1.png">
+              </td>
+              <td>
+                <img width="16px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADgSURBVHgBxdexEcIwFAPQb0/AKFTpmYgRkhHYiD6J7xiFCWzsJkCOwpZkoiYXN3r3UzjfjMi6rtd5ns9GxBuYEMKYHzfv/Z1BOANSylNK08fRM8Z4GYbhYY2BJpDL9vATOgloAiXLskzOuXF33DwJGKBCUAAFggawCAmAQcgAKEIKQBByQCuiC6AF0Q1Qi3D5Rkv2/2yIowAbAr6OVTkK8P4E1jE//hu+ystLN0BNeTdAbXkXQEu5HNBaLgUg5TIAWi4BMOU0gC2nAIpyGKAqL1FtRvBqptiM4HI6BcGu5y9g6intzYomSAAAAABJRU5ErkJggg==" />
+              </td>
+              <td>
+                <mj-image src="images/tmp-pin2.png">
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-group>
+
+      <mj-column>
+        <mj-text align="right">
+          Analyst: <a href="mailto:drews@shiplify.com">drews@shiplify.com</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text align="center">Have a question?</mj-text>
+        <mj-text align="center">Just reply to this email.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text align="center">Shiplify</mj-text>
+        <mj-text align="center">1425 Ellsworth Industrial Blvd Ste #24, Atlanta, GA 30318</mj-text>
+        <mj-text align="center">Don’t like these emails? <a href="#">Opt out</a>.</mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
